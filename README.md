@@ -164,6 +164,7 @@ https://www.blazedemo.com
 Durante a configuração do teste, foi identificado que o componente nativo do JMeter, Constant Throughput Timer, permite configurar a taxa de execução apenas em amostras por minuto, não oferecendo controle direto de requisições por segundo.
 Como o cenário exigia atingir 250 requisições por segundo, foi necessário utilizar o plugin Throughput Shaping Timer, disponível no pacote de plugins do JMeter.
 Esse plugin possibilita definir a taxa de throughput por segundo de forma mais precisa, permitindo configurar e manter a carga desejada ao longo da execução do teste, atendendo melhor ao critério estabelecido.
+E além disso também me ajudou com o teste de pico e carga, porque através dele foi possível configurar a quantidade inicial e final de requisições desejada.
 
 ## Configuração do Teste - Pico
 * Thread Group
